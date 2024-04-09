@@ -34,6 +34,7 @@ namespace BeautySaloon.UserControls
 		{
 			model.ProductSale.Remove(_ps);
 			model.SaveChanges();
+			MessageBox.Show("Удалено");
 			_own.update();
 		}
 	}

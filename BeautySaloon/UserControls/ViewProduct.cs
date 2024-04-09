@@ -66,6 +66,7 @@ namespace BeautySaloon.UserControls
 		{
 			model.Product.Remove(_product);
 			model.SaveChanges();
+			MessageBox.Show("Удалено");
 			own.update();
 		}
 	}
